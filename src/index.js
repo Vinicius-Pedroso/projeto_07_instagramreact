@@ -1,13 +1,4 @@
 import ReactDOM from 'react-dom';
-import Navbar from './navbar';
+import app from './app';
 
-function Lista() {
-    return (
-        <div>
-            <Navbar />
-        </div>
-    );
-}
-
-const lista = Lista();
-ReactDOM.render(lista, document.querySelector(".root"));
+ReactDOM.render(<app />, document.querySelector(".root"));
